@@ -3,10 +3,6 @@ CachedData = {
     Peds = {}
 }
 
-RegisterCommand('test_script', function(source, args, RawCommand)
-    
-end)
-
 AddEventHandler("onResourceStop", function(res)
     if res ~= GetCurrentResourceName() then
         return
