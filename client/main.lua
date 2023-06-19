@@ -3,6 +3,8 @@ CachedData = {
     Peds = {}
 }
 
+test
+
 AddEventHandler("onResourceStop", function(res)
     if res ~= GetCurrentResourceName() then
         return
